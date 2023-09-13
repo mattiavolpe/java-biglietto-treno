@@ -10,6 +10,8 @@ public class CalcolaBiglietto {
 		System.out.print("How old are you? ");
 		byte age = sc.nextByte();
 		
+		sc.close();
+		
 		double fullPrice = 0.21 * km;
 		double discountedPrice = fullPrice;
 		
